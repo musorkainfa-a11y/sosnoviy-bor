@@ -63,7 +63,7 @@ const Navigation = ({
             <motion.div whileHover={{
             scale: 1.02
           }} className="flex items-center gap-2 cursor-pointer">
-              <img src={./favicon.png} alt="Сосновый бор" className={`h-[101px] w-auto ${isMobileMenuOpen || isDark || !isScrolled ? "brightness-0 invert" : ""}`} />
+              <img src={logoAsset.url} alt="Сосновый бор" className={`h-[101px] w-auto ${isMobileMenuOpen || isDark || !isScrolled ? "brightness-0 invert" : ""}`} />
             </motion.div>
           </Link>
 
